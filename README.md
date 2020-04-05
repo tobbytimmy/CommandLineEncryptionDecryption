@@ -42,7 +42,7 @@ Output- Hello, this is a test.
 
 ## Built With
 
-* Java 13.0.2 - The programming language used
+* Java 13.0.2 - The programming language used.
 
 ## Authors
 
