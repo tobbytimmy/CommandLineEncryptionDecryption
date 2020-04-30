@@ -19,8 +19,10 @@ java (version 13.0.2)
 Open the Command Line or Terminal and go to the src directory of the project.
 
 Then run the program while passing the required arguments.
+P.S.- If you plan to encrypt/decrypt a file or pass the output to a file, pass the name of the file to the input or output arguments.
 
-###Input Arguments
+### Input Arguments
+
 * Key - This is the number of movements the text has to shift by. Default - 0 
 * Algorithm - This is the encrypting/decrypting algorithm the program is going to make use of.
  They include the Shift and Unicode algorithms. Default - Shift Algorithm
@@ -39,6 +41,10 @@ Output- Mjqqt, ymnx nx f yjxy.
 java Main -key 5 -alg shift -data "Mjqqt, ymnx nx f yjxy." -mode dec
 Output- Hello, this is a test.
 ```
+```
+java Main -mode enc -in input_text.txt -out output_text.txt -key 5 -alg unicode
+```
+
 
 ## Built With
 
